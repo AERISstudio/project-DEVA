@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             DEVATheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "김선민",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
